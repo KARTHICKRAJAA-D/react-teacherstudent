@@ -1,38 +1,62 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.titlebar{
+  background-color: darkkhaki;
+  color: crimson;
+  margin: 0px;
+  padding:10px;
+  display:flex;
+  justify-content:start;
+  gap:1rem;
+}
+.con:hover{
+cursor:pointer;
+color:aquamarine;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.view{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: burlywood;
+  height: 100vh;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.studentdetails{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+}
+.college{
+  border: 1px solid black;
+  background-color: blue;
+  color: white;
+  margin: 0px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+.children{
+  background-color: burlywood;
+  height:100vh;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button:hover{
+  background-color: greenyellow;
+  color: black;
+}
+.add{
+  margin: 0px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
 }
